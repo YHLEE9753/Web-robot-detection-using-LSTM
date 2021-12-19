@@ -1,7 +1,7 @@
 # Web-robot-detection-using-LSTM
 Web robot detection based on Log access Pattern recognition using LSTM
 
-# BackGroung
+# Background
 According to a recent survey, 37.2% of all internet users were robots in 2020. It consists of 13.1% of good bots and 24.1% of bad bots. And bad bots considered malicious usually threaten the security and privacy of web applications and users.<br>
 
 In this project, the workflow pipeline which was proposed in the "DeepLog: Anomaly Detection and Diagnotics from System Logs" was applied to web robot detection by using the URL access pattern. The core assumption of the model in this project is that humans leave log records through URLs of similar related topics, but robots will repeat the standardized pattern regardless of the subject. For that reasons, we can determine the presence or absence of robots by capturing the uri access pattern which has been made by various web bots.
